@@ -11,7 +11,7 @@ const TelegramLoginWidget: React.FC<any> = ({ }) => {
     const script = document.createElement('script');
     script.src = 'https://telegram.org/js/telegram-widget.js?22';
     script.async = true;
-    script.setAttribute('data-telegram-login', 'test_bot_for_such');
+    script.setAttribute('data-telegram-login', 'such_test_bot');
     script.setAttribute('data-size', 'large');
     script.setAttribute('data-onauth', 'TelegramLoginWidget.callbackOnAuth(user)');
     script.async = true;
