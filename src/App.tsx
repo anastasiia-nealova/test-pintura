@@ -3,6 +3,7 @@ import './App.css';
 import '@pqina/pintura/pintura.css';
 import { getEditorDefaults } from '@pqina/pintura';
 import { PinturaEditor } from '@pqina/react-pintura';
+import TelegramLoginWidget from './TelegramLoginWidget';
 
 const editorConfig = getEditorDefaults();
 
@@ -14,6 +15,7 @@ function App() {
                 src="mercedes.jpg"
                 imageCropAspectRatio={1}
             ></PinturaEditor>
+            <TelegramLoginWidget />
         </div>
     );
 }
